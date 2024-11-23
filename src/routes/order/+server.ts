@@ -2,8 +2,6 @@ import type { RequestHandler } from './$types';
 import { json } from '@sveltejs/kit';
 import PocketBase from 'pocketbase';
 import { PUBLIC_POCKETBASE_URL } from '$env/static/public';
-import { SECRET_STRIPE_KEY } from '$env/static/private';
-import Stripe from 'stripe';
 import type { CartItem } from '$lib/stores';
 
 export const POST = (async ({ request }) => {
@@ -33,23 +31,23 @@ export const POST = (async ({ request }) => {
 	);
 
 	try {
-		const stripe = new Stripe(SECRET_STRIPE_KEY, {
-			apiVersion: '2022-11-15'
-		});
+		// const stripe = new Stripe(SECRET_STRIPE_KEY, {
+		// 	apiVersion: '2022-11-15'
+		// });
 
-		const session = await stripe.checkout.sessions.create({
-			payment_method_types: ['card'],
-			shipping_address_collection: { allowed_countries: ['US', 'CA'] },
-			line_items,
-			mode: 'payment',
-			success_url: `${request.url}?success=true`,
-			cancel_url: request.url,
-			phone_number_collection: {
-				enabled: true
-			}
-		});
+		// const session = await stripe.checkout.sessions.create({
+		// 	payment_method_types: ['card'],
+		// 	shipping_address_collection: { allowed_countries: ['US', 'CA'] },
+		// 	line_items,
+		// 	mode: 'payment',
+		// 	success_url: `${request.url}?success=true`,
+		// 	cancel_url: request.url,
+		// 	phone_number_collection: {
+		// 		enabled: true
+		// 	}
+		// });
 
-		return json({ stripeSession: session });
+		return json({ stripeSession: {} });
 	} catch (err) {
 		console.log(err);
 		return new Response(null);

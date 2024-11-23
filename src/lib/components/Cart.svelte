@@ -5,8 +5,6 @@
 	import QuantityInput from '$lib/components/QuantityInput.svelte';
 	import { PUBLIC_POCKETBASE_URL } from '$env/static/public';
 	import { onMount } from 'svelte';
-	import { loadStripe } from '@stripe/stripe-js/pure';
-	import { PUBLIC_STRIPE_KEY } from '$env/static/public';
 
 	let stripe: any = null;
 
@@ -51,7 +49,7 @@
 	}
 
 	onMount(async () => {
-		stripe = await loadStripe(PUBLIC_STRIPE_KEY);
+		// stripe = await loadStripe(PUBLIC_STRIPE_KEY);
 	});
 
 	onDestroy(unsubscribe);

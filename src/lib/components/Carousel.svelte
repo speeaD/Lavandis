@@ -3,8 +3,7 @@
 	import CarouselDot from '$lib/components/CarouselDot.svelte';
 
 	import { browser } from '$app/environment';
-	import { PUBLIC_POCKETBASE_URL } from '$env/static/public';
-
+	import { PUBLIC_POCKETBASE_URL } from '$env/static/public'; // Replace with the correct environment variable
 	export let banners: any;
 
 	let carousel: any; // for calling methods of the carousel instance
