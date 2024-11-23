@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
+
 export const load = (async ({ locals }) => {
 	try {
 		const [showcaseRecords, carouselsRecords] = await Promise.all([
