@@ -1,0 +1,1 @@
+import{R as o}from"../chunks/control.c2cf8273.js";function r(e,t){return new o(e,t.toString())}new TextEncoder;const n=async()=>{throw r(301,"/shop/all")},c=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{c as universal};

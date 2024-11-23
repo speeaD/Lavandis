@@ -18,7 +18,7 @@ export const POST = (async ({ request }) => {
 
 			return {
 				price_data: {
-					currency: 'usd',
+					currency: 'ngn',
 					product_data: {
 						name: item.name,
 						images: [`${PUBLIC_POCKETBASE_URL}/api/files/products/${item.id}/${item.images[0]}`]

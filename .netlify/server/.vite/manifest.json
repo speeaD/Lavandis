@@ -1,0 +1,224 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "QuantityInput.css": {
+    "file": "_app/immutable/assets/QuantityInput.a11e9662.css",
+    "src": "QuantityInput.css"
+  },
+  "_ProductItem.js": {
+    "file": "chunks/ProductItem.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_index3.js": {
+    "file": "chunks/index3.js"
+  },
+  "_internal.js": {
+    "dynamicImports": [
+      "src/hooks.server.ts"
+    ],
+    "file": "chunks/internal.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_public.js": {
+    "file": "chunks/public.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_stores2.js": {
+    "file": "chunks/stores2.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-cyrillic-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-sans-cyrillic-ext-wght-normal.bfdae3d5.woff2",
+    "src": "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-cyrillic-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-cyrillic-wght-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-sans-cyrillic-wght-normal.7b4b167b.woff2",
+    "src": "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-cyrillic-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-latin-ext-wght-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-sans-latin-ext-wght-normal.c1dbb40c.woff2",
+    "src": "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-latin-wght-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-sans-latin-wght-normal.1393acc6.woff2",
+    "src": "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-vietnamese-wght-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-sans-vietnamese-wght-normal.90a7bd47.woff2",
+    "src": "node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-vietnamese-wght-normal.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores2.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_index2.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/hooks.server.ts": {
+    "file": "chunks/hooks.server.js",
+    "imports": [
+      "_public.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/hooks.server.ts"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.f664a512.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/nunito-sans-cyrillic-ext-wght-normal.bfdae3d5.woff2",
+      "_app/immutable/assets/nunito-sans-cyrillic-wght-normal.7b4b167b.woff2",
+      "_app/immutable/assets/nunito-sans-vietnamese-wght-normal.90a7bd47.woff2",
+      "_app/immutable/assets/nunito-sans-latin-ext-wght-normal.c1dbb40c.woff2",
+      "_app/immutable/assets/nunito-sans-latin-wght-normal.1393acc6.woff2"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.f664a512.css",
+      "_app/immutable/assets/QuantityInput.a11e9662.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page.f76ac12e.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.server.ts": {
+    "file": "entries/pages/_page.server.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.server.ts"
+  },
+  "src/routes/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.f76ac12e.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_ProductItem.js",
+      "_public.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/order/+page.svelte": {
+    "file": "entries/pages/order/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores2.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/order/+page.svelte"
+  },
+  "src/routes/order/+server.ts": {
+    "file": "entries/endpoints/order/_server.ts.js",
+    "imports": [
+      "_index.js",
+      "_public.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/order/+server.ts"
+  },
+  "src/routes/products/[slug]/+page.css": {
+    "file": "_app/immutable/assets/_page.d855e1e6.css",
+    "src": "src/routes/products/[slug]/+page.css"
+  },
+  "src/routes/products/[slug]/+page.server.ts": {
+    "file": "entries/pages/products/_slug_/_page.server.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/products/[slug]/+page.server.ts"
+  },
+  "src/routes/products/[slug]/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.d855e1e6.css",
+      "_app/immutable/assets/QuantityInput.a11e9662.css"
+    ],
+    "file": "entries/pages/products/_slug_/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_public.js",
+      "_stores.js",
+      "_ProductItem.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/products/[slug]/+page.svelte"
+  },
+  "src/routes/shop/+page.ts": {
+    "file": "entries/pages/shop/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/shop/+page.ts"
+  },
+  "src/routes/shop/[slug]/+page.server.ts": {
+    "file": "entries/pages/shop/_slug_/_page.server.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/shop/[slug]/+page.server.ts"
+  },
+  "src/routes/shop/[slug]/+page.svelte": {
+    "file": "entries/pages/shop/_slug_/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_ProductItem.js",
+      "_public.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/shop/[slug]/+page.svelte"
+  }
+}
