@@ -16,9 +16,7 @@
 	"devDependencies": {
 		"@playwright/test": "^1.31.2",
 		"@svelte-put/clickoutside": "^2.0.0",
-		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-netlify": "^4.3.6",
-		"@sveltejs/adapter-vercel": "^5.4.8",
 		"@sveltejs/kit": "^1.9.3",
 		"@typescript-eslint/eslint-plugin": "^5.54.0",
 		"@typescript-eslint/parser": "^5.54.0",
